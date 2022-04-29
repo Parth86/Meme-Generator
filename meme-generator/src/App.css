@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.form {
+  padding: 35px;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 15px;
+}
+
+.formButton{
+  grid-column: 1 / -1;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.formInput {
+  border-radius: 5px;
+  border: 1px solid black;
+  text-indent: 10px;
+}
+
+.memeImage {
+  position: relative;
+  padding: 50px;
+  text-align: center;
+}
+#meme {
+  height: 400px;
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+.bottom {
+  bottom: 35px;
+}
+
+.top {
+  top: 35px;
+}
